@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #131313;
+  min-height: 100vh;
+}
+@media screen and (min-width: 576px) {
+  .login-container {
+    padding-left: 165px;
+    padding-right: 165px;
+    background-image: url('https://res.cloudinary.com/duv0mhzrm/image/upload/v1665899286/netfilx_1_xmhlyp.png');
+  }
+}
+.web-site-logo {
+  margin-top: 32.01px;
+  height: 27px;
+  width: 100px;
+  align-self: flex-start;
+}
+@media screen and (min-width: 576px) {
+  .web-site-logo {
+    margin-top: 48.54px;
+    height: 52.0005989074707px;
+    width: 180px;
+  }
+}
+
+.login-form-container {
+  margin-top: 130px;
+}
+
+@media screen and (min-width: 576px) {
+  .login-form-container {
+    background: #0c0b10;
+    opacity: 0.8;
+    height: 100%;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    align-self: center;
+    margin-top: 30px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+.login-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 576px) {
+  .login-heading {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.label-login {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 576px) {
+  .label-login {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+}
+.login-input-user-name {
+  height: 40px;
+  width: 296px;
+  left: 0px;
+  top: 24px;
+  padding-left: 10px;
+  border-radius: 2px;
+  background: #333333;
+  color: #e2e8f0;
+  outline: none;
+  border-width: 0px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 576px) {
+  .login-input-user-name {
+    height: 40px;
+    width: 360px;
+    left: 0px;
+    top: 24px;
+    border-radius: 2px;
+  }
+}
+.label-login-password {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 16px;
+}
+@media screen and (min-width: 576px) {
+  .label-login-password {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-top: 24px;
+  }
+}
+.sign-in-button {
+  height: 40px;
+  width: 296px;
+  left: 32px;
+  top: 432px;
+  border-radius: 4px;
+  padding: 8px 20px 8px 20px;
+  background: #e50914;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  .sign-in-button {
+    height: 40px;
+    width: 360px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    background: #e50914;
+    color: #ffffff;
+  }
+}
+.error-msg-para {
+  color: #dc2626;
+  font-family: 'Roboto';
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}

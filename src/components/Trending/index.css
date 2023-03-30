@@ -1,0 +1,119 @@
+.loader-container-trending {
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 296px;
+  height: 90px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 576px) {
+  .loader-container-trending {
+    width: 1109px;
+    height: 170px;
+
+    margin-top: 10px;
+  }
+}
+.error-icon-trending {
+  color: #d81f26;
+  height: 12.666666984558105px;
+  width: 14.665767669677734px;
+}
+@media screen and (min-width: 576px) {
+  .error-icon-trending {
+    height: 25.333335876464844px;
+    width: 29.33153533935547px;
+  }
+}
+.error-para-trending {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 576px) {
+  .error-para-trending {
+    font-size: 14px;
+  }
+}
+.error-btn-trending {
+  height: 28px;
+  width: 100px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding: 2px 12px 2px 12px;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+}
+.trending-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+@media screen and (min-width: 576px) {
+  .trending-heading {
+    font-size: 25px;
+  }
+}
+.trending-container {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+@media screen and (min-width: 576px) {
+  .trending-container {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.slick-container {
+  width: 95%;
+}
+
+.tending-movie-poster-path {
+  height: 64px;
+  width: 90px;
+  left: 32px;
+  top: 439px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 576px) {
+  .tending-movie-poster-path {
+    height: 170px;
+    width: 224px;
+    border-radius: 8px;
+  }
+}
+.slick-item {
+  margin: 0px;
+  padding: 0px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #ffffff;
+}

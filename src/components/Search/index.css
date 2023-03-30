@@ -1,0 +1,19 @@
+.btn-search {
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+}
+.popular-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #131313;
+  min-height: 100vh;
+  width: 100%;
+}
+.search-form-container {
+  display: flex;
+  align-self: center;
+}

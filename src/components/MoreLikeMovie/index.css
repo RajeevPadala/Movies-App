@@ -1,0 +1,20 @@
+.liked-li {
+  margin: 5px;
+}
+@media screen and (min-width: 576px) {
+  .liked-li {
+    margin: 15px;
+  }
+}
+.more-liked-poster {
+  width: 90px;
+  height: 64px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 576px) {
+  .more-liked-poster {
+    width: 200px;
+    height: 170px;
+    border-radius: 8px;
+  }
+}

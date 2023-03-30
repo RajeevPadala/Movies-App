@@ -1,0 +1,180 @@
+.account-container {
+  background-color: #131313;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.account-sub-container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+@media screen and (min-width: 576px) {
+  .account-sub-container {
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+}
+.account-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #131313;
+}
+@media screen and (min-width: 576px) {
+  .account-heading {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0px;
+  }
+}
+.hr-line {
+  border: #cbd5e1 solid 1px;
+  width: 100%;
+}
+.name-password-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.member-ship {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0px;
+  color: #94a3b8;
+}
+@media screen and (min-width: 576px) {
+  .member-ship {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0px;
+  }
+}
+.user-name-container-account {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.user-name-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #1e293b;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .user-name-para {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+  }
+}
+.password-container-account {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.password-para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  margin-top: 0px;
+}
+@media screen and (min-width: 576px) {
+  .password-para {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+  }
+}
+.plan-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.plan-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #1e293b;
+  text-align: center;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .plan-para {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+  }
+}
+.quality-container {
+  border: solid 1px #1e293b;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 23px;
+  min-width: 56px;
+  margin-left: 10px;
+}
+.quality-para {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #1e293b;
+}
+.btn-logout-container {
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+}
+.btn-logout {
+  background-color: #e50914;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 40px;
+  cursor: pointer;
+  width: 89px;
+  border-width: 0px;
+  border-radius: 4px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 15px;
+}
